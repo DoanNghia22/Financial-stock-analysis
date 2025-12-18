@@ -1,24 +1,31 @@
-# Financial Stock Analysis & Reporting
+# Stock analysis & Financial reporting web app
 
 ## Overview
-This project focuses on analyzing financial statements and stock price data of HOSE-listed companies.
-The main objective is to clean, process, and analyze financial data, then generate structured financial
-reports to support data-driven insights.
+This academic project focuses on cleaning and analyzing financial data and stock prices of listed companies using Python, and generating structured PDF reports to support data-driven financial analysis.
 
-## Project Structure
-- **data/**: Contains raw and cleaned financial datasets used for analysis.
-- **report/**: Includes generated financial reports and analysis outputs.
+## Objectives
+- Analyze stock price movements (short-term & long-term)
+- Evaluate company fundamentals:
+  - Profitability
+  - Growth
+  - Financial leverage
+  - Valuation ratios
+  - Cash flow stability
+- Compare company performance with industry averages
+- Automatically generate a well-formatted financial analysis PDF report
 
-## Key Tasks
-- Financial data preprocessing and validation
-- Data cleaning and consistency checking
-- Financial ratio analysis and reporting
-- Preparation of analysis results for decision-making
+## Technologies Used
+- Python
+- Streamlit
+- Pandas (Data processing)
+- Matplotlib (Data visualization)
+- ReportLab (PDF generation)
+- NumPy (Numerical calculations)
 
-## Tools & Skills
-- Microsoft Excel
-- Financial data analysis
-- Data preprocessing & documentation
-
+## How to run the project
+- pip install streamlit pandas matplotlib reportlab
+- Download all the data and save it to a folder named "data"
+- Update data path (DATA_PATH = "your_local_path/data")
+- Type this command in the Terminal: streamlit run Code.py
 
 
